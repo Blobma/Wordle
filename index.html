@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <?php echo_exec("python main.py"); ?>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+</head>
+<style>
+body{
+    border: solid 10px black;
+    background-color: antiquewhite;
+    align-items:center;
+}
+body h1{
+    margin-left: 450px;
+    font-size:x-large;
+}
+iframe{
+    margin-left: 350px;
+    margin-top: 0px;
+    resize:both;
+    overflow:auto;
+    display:flex;
+}
+</style>
+<body>
+    <h1>Wordle:Click the run button to play!</h1>
+    <iframe frameborder="0" width="550px" height="550px" src="https://replit.com/@CoderKEY/Wordle?embed=true">
+
+    </iframe>
+
+</body>
+</html>
